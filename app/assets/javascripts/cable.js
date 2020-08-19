@@ -10,4 +10,7 @@
 
   App.cable = ActionCable.createConsumer();
 
+  if(!App.cable) return "oh no! This means nothing"
+
 }).call(this);
+
